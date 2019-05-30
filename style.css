@@ -8,7 +8,10 @@
   }
   
   body {
-      background-color: rgba(44, 43, 43, 0.877)
+      background-color: rgba(44, 43, 43, 0.877);
+      font-family: Arial, Helvetica, sans-serif;
+      width: 960px;
+      font-size: 18px;
   }
   
   header {
@@ -18,7 +21,7 @@
     color: rgb(65, 63, 63);
     margin-left: 100px;
   }
-  #nav {
+  nav {
     padding: 30px;
     margin-bottom: 10px;
     background: gainsboro;
@@ -26,7 +29,7 @@
     margin-left: 100px;
   }
  
-  #box1 {
+  h1 {
       padding: 7px;
       background: gainsboro;
         color: rgb(65, 63, 63);
@@ -46,12 +49,13 @@
   
   #section {
      
-      padding: 30px;
+      padding: 15px;
       margin-bottom: 15px;
       margin-left: 100px;
       margin-right: 10px;
+      margin-top: 20px;
       color:  rgb(65, 63, 63);
-      width: 55%;
+      width: 495px;
       background: lightgray;
     }
   
@@ -113,9 +117,11 @@
       background: gainsboro;
       color: rgb(92, 91, 91);
       height: 100px;
-      width: 30%;
-      margin-left: 400px;
-      margin-top: 10px;
+      width: 340px;
+      margin-left: 620px;
+      margin-top: 13px;
+      padding: 30px;
+      
      
     
       
@@ -129,7 +135,7 @@
     color: rgb(32, 32, 32) 136, 136;
     background: gainsboro;
     height: 100px; 
-    width: 100%;
+    width: 850px;
     margin-left: 100px;
     
   }
